@@ -1,7 +1,5 @@
 def square_array(array)
   #array.collect {|y| y**2}
   return_array = []
-  array.each do |y|
-    return_array << y**2
-  end
+  array.each {|y| return_array << y**2}
 end
